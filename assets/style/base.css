@@ -1,0 +1,32 @@
+img {
+  width: 22vw;
+  height: 22vw;
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+img.roll-0 {
+  transform: rotateX(-90deg);
+}
+
+img.roll-1 {
+  transform: rotateY(-90deg);
+}
+
+img.roll-2 {
+  transform: rotateX(90deg);
+}
+
+img.roll-3 {
+  transform: rotateY(90deg);
+}
+
+#panel {
+  margin: 5px 0;
+}
+
+#panel div {
+  white-space: nowrap;
+}
